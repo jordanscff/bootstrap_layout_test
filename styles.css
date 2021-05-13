@@ -1,0 +1,52 @@
+* {
+  font-size: 16px;
+}
+
+.navbar-inverse {
+  background-color: #d6b1bc;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: black;
+  margin-bottom: 0 !important;
+}
+
+.navbar-brand, a {
+  color: white !important;
+}
+
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("space.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+h1 {
+  font-size: 10rem;
+}
+
+h6 {
+  font-size: 2rem;
+}
